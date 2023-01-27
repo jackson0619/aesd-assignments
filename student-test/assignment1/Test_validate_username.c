@@ -20,3 +20,8 @@ void test_validate_my_username()
      */
     TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
 }
+{   
+    TEST_ASSERT_EQUAL_STRING_MESSAGE("jackson0619", "jackson0619", "whatever");
+        
+}
+    
